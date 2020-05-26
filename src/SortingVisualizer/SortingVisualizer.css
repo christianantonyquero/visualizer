@@ -1,11 +1,27 @@
 .array-container {
   position: absolute;
-  left: 100px;
+  bottom:0px;
+  left: 20px;
   /* top: 100px; */
 }
 
 .array-bar {
-  width: 2px;
-  display: inline-block;
-  margin: 0 1px;
+  width: 4px;
+  display: inline-block; /*Arranges the array in horizontal way */
+  margin: 0 2px;
+}
+
+.buttons button {
+    background-color: #47535E;
+    border: none;
+    color: #EAF0F1;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+    font: 15px "Century Gothic", Futura, sans-serif;
+}
+
+.buttons button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
 }

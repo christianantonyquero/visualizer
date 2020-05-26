@@ -29,7 +29,14 @@
 }
 
 body {
-  background-color: blue;
+  background-color: #DAE0E2;
+}
+
+html,body {
+    height:100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
 }
 
 @keyframes App-logo-spin {
